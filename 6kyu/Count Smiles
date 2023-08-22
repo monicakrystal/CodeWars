@@ -15,18 +15,6 @@ Invalid smiley faces: ;( :> :} :]
 //Answer:
 
 function countSmileys(arr) {
-  // Regular expression to match valid smiley faces
-  const regex = /[:;][-~]?[)D]/;
-  
-  // Counter for valid smiley faces
-  let count = 0;
-  
-  // Iterate through the array
-  for (const face of arr) {
-    if (regex.test(face)) {
-      count++;
-    }
-  }
-  
-  return count;
+ const smiles = /[:;][-~]?[)D]/;
+    return arr.filter(face => smiles.test(face)).length
 }

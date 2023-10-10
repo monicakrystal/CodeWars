@@ -9,9 +9,25 @@ name + " does not play banjo"
 Names given are always valid strings.
 
 */
-   
-   
-   
+
+
+// Answer #1
+
+function areYouPlayingBanjo(name) {
+  return name + (name[0].toLowerCase() == 'r' ? ' plays' : ' does not play') + " banjo";
+}
+
+//Answer #2
+
+
+function areYouPlayingBanjo(name) {
+  if (name[0] == 'R' || name[0] == 'r')
+    return name + " plays banjo";
+  else
+    return name + " does not play banjo";
+}
+
+//Answer #3
    
    
    if (name.charAt(0).toLowerCase() === 'r') {
@@ -19,3 +35,6 @@ Names given are always valid strings.
     } else {
         return name + " does not play banjo";
     }
+
+// the .charAt() method in JavaScript is used to retrieve a specific character from a string based on its index position.
+

@@ -4,3 +4,13 @@
 funtion doubledInterger(i) {
  return i * 2;
 }
+
+
+// or
+
+const doubledInterger = i => i * 2
+
+
+
+
+

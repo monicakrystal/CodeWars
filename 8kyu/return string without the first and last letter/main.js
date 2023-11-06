@@ -14,3 +14,8 @@ function removeChar(str) {
 
   return str.slice(1, -1);
 }
+
+
+//Answer #2
+
+const removeChar = str => str.slice(1,-1)

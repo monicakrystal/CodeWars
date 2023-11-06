@@ -19,3 +19,12 @@ function hero(bullets, dragons){
 }
 
 
+// Other Possible Answer:
+
+function hero(bullets, dragons){
+  return bullets >= dragons * 2 
+}
+
+
+
+

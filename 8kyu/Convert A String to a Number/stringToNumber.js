@@ -21,9 +21,16 @@ const stringToNumber = function(str){
 }
 
 
-//Other Answer:
+// Other Answer:
 
 const stringToNumber = function(str){
   let makeNumber = parseInt(str, 10);
+  return makeNumber;
+}
+
+// Another Answer: 
+
+const stringToNumber = function(str){
+  let makeNumber = parseFloat(str);
   return makeNumber;
 }

@@ -34,3 +34,10 @@ const stringToNumber = function(str){
   let makeNumber = parseFloat(str);
   return makeNumber;
 }
+
+// Another Possible Answer:
+
+const stringToNumber = function(str){
+  let makeNumber = +str;
+  return makeNumber;
+}

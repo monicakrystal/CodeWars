@@ -19,3 +19,11 @@ const stringToNumber = function(str){
   let makeNumber = Number(str);
   return makeNumber;
 }
+
+
+//Other Answer:
+
+const stringToNumber = function(str){
+  let makeNumber = parseInt(str, 10);
+  return makeNumber;
+}
